@@ -24,7 +24,7 @@ PORT = os.environ.get("PORT", "8080")
 
 # Database 
 DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://Dpcinema:Dpcinema@atlascluster.mcfyzy4.mongodb.net/?retryWrites=true&w=majority&appName=AtlasCluster")
-DB_NAME = os.environ.get("DATABASE_NAME", "Dp cinema")
+DB_NAME = os.environ.get("DATABASE_NAME", "Dpcinema")
 
 # Force sub channel id, if you want enable force sub
 FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1001845177364"))
@@ -57,7 +57,7 @@ BOT_STATS_TEXT = "<b>BOT UPTIME</b>\n{uptime}"
 USER_REPLY_TEXT = "❌Don't send me messages directly I'm only File Share bot!"
 
 ADMINS.append(OWNER_ID)
-ADMINS.append(1250450587)
+ADMINS.append(2017335429)
 
 LOG_FILE_NAME = "filesharingbot.txt"
 
